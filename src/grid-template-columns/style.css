@@ -1,0 +1,54 @@
+/* ajustando o titulo da pagina */
+h1 {
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+/* ajustando os item*/
+.item {
+	background: crimson;
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 6px;
+}
+
+/* container */
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+/* grids */
+
+.grid {
+	display: grid;
+}
+
+.grid-template-column-1 {
+	grid-template-columns: repeat(4, 100px);
+}
+
+.grid-template-column-2 {
+	grid-template-columns: 1fr 2fr;
+}
+
+.grid-template-column-3 {
+	grid-template-columns: minmax(200px, 1fr) repeat(2, 1fr);
+}
+
+.grid-template-column-4 {
+	grid-template-columns: repeat(auto-fit, 100px);
+}
+
+.grid-template-column-5 {
+	grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+
+.grid-template-columns-7 {
+	grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+}
