@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #cccccc;
+	font-family: "Maven Pro", sans-serif;
+	background: #121214;
+}
